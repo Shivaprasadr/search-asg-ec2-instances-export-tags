@@ -1,6 +1,6 @@
 ## Search EC2 ASG  and Specific ASG Instances and Export Tags to CSV
 
-This Project is used to pull Tag details to CSV pre and post deployment of RDA / DRIVE deployments You might be looking at a list of hundreds of instance ids or ip addresses and you'll be wondering what these instances are or who they belong to.  This project can help you answer that question.  This is a python script that takes in a list of instance-ids, private or public ipv4 addresses and searches for them in your AWS account.  For the ones it finds, it creates a CSV file that contains the combined tags of all the instances.  By looking at this CSV file, you should be able to better categorize these instances.
+This Project is used to pull Tag details to CSV pre and post deployments You might be looking at a list of hundreds of instance ids or ip addresses and you'll be wondering what these instances are or who they belong to.  This project can help you answer that question.  This is a python script that takes in a list of instance-ids, private or public ipv4 addresses and searches for them in your AWS account.  For the ones it finds, it creates a CSV file that contains the combined tags of all the instances.  By looking at this CSV file, you should be able to better categorize these instances.
 
 ### Input Instance Tags Example
 
@@ -29,7 +29,7 @@ python3 fetch_asg_tags.py --environment preprod
   ```
 3. Clone the git repo to Cloud shell
   ```
-  git clone https://github.com/Sage/lsm-cloud-operations.git
+  git clone https://github.com/Shivaprasadr/search-asg-ec2-instances-export-tags
   ```
 
 4. Install packages:
@@ -74,7 +74,7 @@ Examples:
 (ASG Tags / ASG Instances Tags: Once the script run is successfull we get a link to the file below console output, Download the files from Actions tab given in AWS Cloudshell )
 ```
 1) SCRIPT RUN SUCCESSFULL - Fetched ASG INSTANCE Tags for -production
-File location to download:  /home/cloudshell-user/gitrepo/lsm-cloud-operations/SageDrive/TagsValidation/result_asg_instances_tags.csv
+File location to download:  \result_asg_instances_tags.csv
 ```
 2) We can also compare the files by compare script using below commands:
 ```
