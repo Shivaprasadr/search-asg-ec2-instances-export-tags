@@ -6,9 +6,11 @@ This Project is used to pull Tag details to CSV pre and post deployments You mig
 
 python3 fetch_asg_instances_tags.py --environment preprod
 
+![Example Input](images/input.png?raw=true "Title")
+
 ### Output Instance Tags Example
 
-![Example Input](images/output_asg_instances_tags.PNG?raw=true "Title")
+![Example Input](images/output.png?raw=true "Title")
 
 ### Input ASG Tags Example
 
@@ -16,7 +18,7 @@ python3 fetch_asg_tags.py --environment preprod
 
 ### Output ASG Tags Example
 
-![Example Input](images/output_asg_tags.PNG?raw=true "Title")
+this would be similar as instances tags but the result would be specific to your ASG
 
 
 ### Pre-requisites Installation
